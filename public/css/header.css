@@ -14,7 +14,7 @@
     border-top: 1px solid silver;
     border-left: 1px solid silver;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 .header__div--logo img {
     width: 100%; 
@@ -22,7 +22,8 @@
 .header__div--listas {
     display: flex;
     text-align: center;
-    width: 80%;
+    width: 100%;
+    flex-direction: column;
 }
 .header__div--listas ul {
     display: flex;
@@ -36,8 +37,8 @@
     
 }
 .header__div--listas ul li a {
-    width: 100%;
+    width: 110%;
     border-right: 1px solid silver;
     border-top: 1px solid silver;
-    padding: 10px 0;
+    padding: 13px 0;
 }
