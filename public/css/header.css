@@ -1,0 +1,43 @@
+
+
+/*  H E A D E R  */
+
+.header {
+    background-color: #5050aa;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid silver;
+}
+.header__div--logo {
+    width: 20%;
+    border-right: 1px solid silver;
+    border-top: 1px solid silver;
+    border-left: 1px solid silver;
+    display: flex;
+    align-items: flex-end;
+}
+.header__div--logo img {
+    width: 100%; 
+}
+.header__div--listas {
+    display: flex;
+    text-align: center;
+    width: 80%;
+}
+.header__div--listas ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header__div--listas ul li {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;  
+    
+}
+.header__div--listas ul li a {
+    width: 100%;
+    border-right: 1px solid silver;
+    border-top: 1px solid silver;
+    padding: 10px 0;
+}

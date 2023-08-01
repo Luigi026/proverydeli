@@ -1,0 +1,17 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+ }
+ body {
+    background-color: #454f66;
+ }
+ a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+li {
+    list-style: none;
+}
