@@ -10,20 +10,19 @@
     border-right: 1px solid silver;
 }
 .header__div--logo {
-    width: 20%;
+    width: 17%;
     border-top: 1px solid silver;
     border-left: 1px solid silver;
     display: flex;
-    align-items: center;  
 }
 .header__div--logo img {
-    width: 100%; 
-
+    width: 100%;
+    padding-top: 1px;
 }
 .header__div--listas {
     display: flex;
     text-align: center;
-    width: 80%;
+    width: 83%;
 }
 .header__div--listas ul {
     width: 100%;
@@ -38,7 +37,7 @@
     width: 100%;
     border-left: 1px solid silver;
     border-top: 1px solid silver;
-    padding: 13px 0;
+    padding: 10px 0;
 }
 @media(min-width:481px) {
     
@@ -50,7 +49,8 @@
         border: 0;
     }
     .header__div--logo img {
-        width: 100%;
+        width: 90%;
+        padding-top: 4px;
     }
     .header__div--listas {
         width: 90%;
@@ -64,7 +64,6 @@
         padding: 0;
         border-top: 0;
         border-left: 1px solid silver;
-        
     }
     
   
