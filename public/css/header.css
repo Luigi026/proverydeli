@@ -7,10 +7,10 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid silver;
+    border-right: 1px solid silver;
 }
 .header__div--logo {
     width: 20%;
-    border-right: 1px solid silver;
     border-top: 1px solid silver;
     border-left: 1px solid silver;
     display: flex;
@@ -22,23 +22,38 @@
 .header__div--listas {
     display: flex;
     text-align: center;
-    width: 100%;
-    flex-direction: column;
+    width: 80%;
 }
 .header__div--listas ul {
+    width: 100%;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 .header__div--listas ul li {
     width: 100%;
     display: flex;
-    justify-content: space-around;  
-    
 }
 .header__div--listas ul li a {
-    width: 110%;
-    border-right: 1px solid silver;
+    width: 100%;
+    border-left: 1px solid silver;
     border-top: 1px solid silver;
     padding: 13px 0;
+}
+@media(min-width:481px) {
+ 
+    .header__div--logo {
+        width: 10%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header__div--logo img {
+        width: 50%;
+    }
+    .header__div--listas {
+        width: 90%;
+    }
+    .header__div--listas ul{
+        width: 100%;
+        flex-direction: row;
+    }
 }
