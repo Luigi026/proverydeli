@@ -8,26 +8,26 @@
     justify-content: space-between;
     border-bottom: 1px solid silver;
     border-right: 1px solid silver;
+    border-top: 1px solid silver;
 }
 .header__div--logo {
-    width: 17%;
-    border-top: 1px solid silver;
+    width: 20%;
     border-left: 1px solid silver;
     display: flex;
 }
 .header__div--logo img {
     width: 100%;
-    padding-top: 1px;
 }
 .header__div--listas {
     display: flex;
     text-align: center;
-    width: 83%;
+    width: 80%;
 }
 .header__div--listas ul {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .header__div--listas ul li {
     width: 100%;
@@ -36,7 +36,6 @@
 .header__div--listas ul li a {
     width: 100%;
     border-left: 1px solid silver;
-    border-top: 1px solid silver;
     padding: 10px 0;
 }
 @media(min-width:481px) {

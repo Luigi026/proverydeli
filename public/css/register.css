@@ -50,6 +50,7 @@
         display: flex;
         justify-content: space-around;
         width: 100%;
+        align-items: center;
     }    
     .form__divs--label {
         padding: 8px 0 0px 5px;
@@ -80,6 +81,6 @@
     }
     .register__div--image img {
         width: 100%;
-        margin-top: 30px;
+        
     }
 }
