@@ -14,10 +14,11 @@
     border-top: 1px solid silver;
     border-left: 1px solid silver;
     display: flex;
-    align-items: center;
+    align-items: center;  
 }
 .header__div--logo img {
     width: 100%; 
+
 }
 .header__div--listas {
     display: flex;
@@ -40,14 +41,16 @@
     padding: 13px 0;
 }
 @media(min-width:481px) {
- 
+    
+    .header {
+        border: 1px solid silver;
+    }
     .header__div--logo {
         width: 10%;
-        flex-direction: column;
-        justify-content: center;
+        border: 0;
     }
     .header__div--logo img {
-        width: 50%;
+        width: 100%;
     }
     .header__div--listas {
         width: 90%;
@@ -55,5 +58,16 @@
     .header__div--listas ul{
         width: 100%;
         flex-direction: row;
+        align-items: center;
     }
+    .header__div--listas ul li a {
+        padding: 0;
+        border-top: 0;
+        border-left: 1px solid silver;
+        
+    }
+    
+  
+
+    
 }
