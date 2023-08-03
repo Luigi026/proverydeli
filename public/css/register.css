@@ -5,7 +5,7 @@
 
 .register__div {
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 70px;
 }    
 .register__div__form {
     display: flex;
@@ -45,8 +45,7 @@
 @media(min-width:481px) {
 
     .register__div {
-        padding: 10px;
-        margin-top: 50px;
+        margin-top: 5px;
         display: flex;
         justify-content: space-around;
         width: 100%;
