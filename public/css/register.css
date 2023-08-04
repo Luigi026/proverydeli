@@ -38,7 +38,6 @@
 }
 ::placeholder {
     color: #868585;
-    font-style: italic;
     padding-left: 2px; 
 }
 
@@ -77,9 +76,10 @@
         display: flex;
         align-items: flex-start;
         margin-top: 17px;
+        
     }
     .register__div--image img {
         width: 100%;
-        
+        border-radius: 10px;
     }
 }

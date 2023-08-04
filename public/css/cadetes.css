@@ -1,0 +1,48 @@
+
+/*  C A D E T E S  */
+
+.main__cadetes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.main__cadetes__section--ranking {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__section__article--ranking {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    
+}
+.main__section__article--ranking img {
+    width: 100%;
+
+}
+.main__section__article__ranking--div {
+    background-color: #5050aa;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 12px;
+    /* border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px; */
+}
+.main__section__article__ranking--div a {
+    background-color: #5050aa;
+    padding: 5px;
+    font-size: 30px;
+}
+.conoceme {
+    margin-top: -60px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 0;
+    text-align: center;
+    font-size: 25px;
+}
