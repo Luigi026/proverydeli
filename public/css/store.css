@@ -1,0 +1,102 @@
+
+ /*  S T O R E  */
+
+.main__store__div--input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.main__store__div--input input {
+    width: 90%;
+    font-size: 15px;
+    padding: 15px;
+    outline: none;
+    border: none;
+}
+.button--glass {
+    margin-left: -47px;
+    background: none;
+    border: none;
+    border-left: 1px solid #9f9e9e;
+    padding: 7px;
+    font-size: 20px;
+}
+.button--glass i {
+    color: #9f9e9e;
+}
+.button--glass i:hover {
+    color: #000;
+}
+.main__store__section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.main__store__section__article {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.main__store__section__article img {
+    width: 100%;
+}
+.main__store__section__article__div {
+    background-color: #5050aa;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #f7efef;
+    border-top: 0;
+}
+.main__store__section__article__div a {
+    background-color: #5050aa;
+    width: 100%;
+    font-size: 12px;
+    padding: 7px;
+    border-right: 1px solid #ffffff;
+}
+.main__store__section__article__div a:last-child {
+    border: none;
+}
+.button--heart {
+    background: none;
+    border: none;
+    font-size: 25px;
+    margin-right: -140px;
+    margin-top: -33px;
+}
+.button--heart i{
+    color: #e0dfdf;
+}
+.button--heart i:hover {
+    color: #bb0f0f;
+}
+@media(min-width:481px) {
+    .main__store__section {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .main__store__section__article {
+        width: 31%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .main__store__section__article__div a {
+        padding: 10px;
+        font-size: 15px;
+        
+    }
+}
