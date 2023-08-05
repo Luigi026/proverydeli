@@ -1,7 +1,39 @@
 
 /*  C A D E T E S  */
-h2 {
+
+.main__cadetes__div--ranking {
+    border-radius: 50%;
+    background-color: #5050aa;
+    padding:30px 10px 20px;
+    box-shadow: 0 0 25px #ffffff;
+}
+
+.main__cadetes__div--input {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.main__cadetes__div--input input {
+    width: 90%;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.button--glass {
+    margin-left: -35px;
+    background: none;
+    border: none;
+    border-left: 1px solid #9f9e9e;
+    padding-left: 7px;
+}
+.button--glass i {
+    color: #9f9e9e;
+}
+.button--glass i:hover {
+    color: #000;
 }
 .main__cadetes {
     display: flex;
@@ -21,7 +53,7 @@ h2 {
     flex-direction: column;
     text-align: center;
     flex-wrap: wrap;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     box-shadow: 0 0 5px #ffffff;
 }
 .main__section__article--ranking img {
@@ -40,6 +72,7 @@ h2 {
     background-color: #5050aa;
     width: 100%;
     font-size: 25px;
+    padding: 5px;
     border-right: 1px solid #ffffff;
 }
 .main__section__article__ranking--div a:last-child {
@@ -56,7 +89,6 @@ h2 {
 
     .main__section__article--ranking {
         width: 45%;
-
     }
     .main__cadetes__section--ranking {
         width: 100%;
