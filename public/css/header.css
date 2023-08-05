@@ -38,6 +38,10 @@
     border-left: 1px solid silver;
     padding: 10px 0;
 }
+.header__div--listas ul li a:last-child {
+    border-right: 1px solid silver;
+}
+
 @media(min-width:481px) {
     
     .header {
