@@ -72,6 +72,8 @@
     font-size: 25px;
     margin-right: -140px;
     margin-top: -33px;
+    width: 95%;
+    text-align: end;
 }
 .button--heart i{
     color: #e0dfdf;
