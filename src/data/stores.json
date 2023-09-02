@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "raul",
+        "price": 500,
+        "adres": "futaleufu 2356",
+        "category": "kiosko",
+        "description": "Asumo la responsabilidad de entregar los pedidos de manera oportuna y segura",
+        "image": "img-cafetera-moulinex.jpg"
+     },
+     {
+        "id": 2,
+        "name": "carlos",
+        "price": 500,
+        "adres": "futaleufu 2356",
+        "category": "veterinaria",
+        "description": "Cumplo con los plazos establecidos y me aseguro de que los productos lleguen en buen estado",
+        "image": "img-macbook-pro-2019.jpg"
+     },
+     {
+        "id": 3,
+        "name": "victor",
+        "price": 500,
+        "adres": "futaleufu 2356",
+        "category": "carniceria",
+        "description": "Soy capaz de organizar y planificar las rutas de entrega de manera eficiente, optimizando el tiempo y los recursos disponibles.",
+        "image": "img-samsung-galaxy-s10.jpg"
+     },
+     {
+        "id": 4,
+        "name": "maria",
+        "price": 500,
+        "adres": "futaleufu 2356",
+        "category": "indumentaria",
+        "description": "Conozco las calles de direcciones de la zona en la que trabajo, los que me permite evitar retrasos innecesarios",
+        "image": "img-heladera-whirpool.jpg"
+     },
+     {
+        "id": 5,
+        "name": "laura",
+        "price": 500,
+        "adres": "futaleufu 2356",
+        "category": "restaurante",
+        "description": "Tengo una actitud amable y servicial hacia los clientes. Entiendo la importancia de brindar un buen servicio al cliente y me esfuerzo por mantener una excelente relacion con ellos",
+        "image": "img-camara-nikon.jpg"
+     },
+     {
+        "id": 6,
+        "name": "sofia",
+        "price": 500,
+        "adres": "futaleufu 2356",
+        "category": "panaderia",
+        "description": "Tengo conocimientos del producto y sus procedimientos. Estoy familiarizado con los productos que esntrego y cononzco los procedimientos de manipulacon adecuados.",
+        "image": "img-aire-acondicionado.jpg"
+     },
+     {
+        "id": 7,
+        "name": "matias",
+        "price": 500,
+        "adres": "futaleufu 2356",
+        "category": "cerrajeria",
+        "description": "Se coo manejar los productos frágiles o perecederos. asi como seguir cualquier instruccion especial proporcionada por el cliente",
+        "image": "img-laptop-lenovo.jpg"
+     },
+     {
+        "id": 8,
+        "name": "antony",
+        "price": 500,
+        "adres": "futaleufu 2356",
+        "category": "ferreteria",
+        "description": "Tengo la habilidad de resolver problemas de manera efectiva, si surge algun contratiempo durante la entrega , busco la solucion mas rapida y efectivas para resolver la situacion",
+        "image": "img-iphone-11.jpg"
+     },
+     {
+        "id": 9,
+        "name": "lionel",
+        "price": 500,
+        "adres": "futaleufu 2356",
+        "category": "verduleria",
+        "description": "Conduzco de manera segura, soy consciente de la importancia de a seguridad vial, cumplo con todas las normas de trafco y maneja de manera segura y responsable",
+        "image": "img-apple-magic-keyboard.jpg"
+     },
+     {
+        "id": 10,
+        "name": "beatriz",
+        "price": 500,
+        "adres": "futaleufu 2356",
+        "category": "estetica",
+        "description": "Tengo buena condicion fisica. Mi trabajo require de una bien estado fisico por ende puedo complir con las tareas de manera eficiente y sin problemas",
+        "image": "img-mouse-logitech.jpg"
+     }
+]

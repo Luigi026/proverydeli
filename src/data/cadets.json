@@ -1,0 +1,183 @@
+[
+   {
+      "id": 1,
+      "name": "raul",
+      "price": 1000,
+      "recommendable": true,
+      "category": "top ranking",
+      "description": "Asumo la responsabilidad de entregar los pedidos de manera oportuna y segura",
+      "image": "images1.jpg"
+   },
+   {
+      "id": 2,
+      "name": "carlos",
+      "price": 1000,
+      "recommendable": true,
+      "category": "top ranking",
+      "description": "Cumplo con los plazos establecidos y me aseguro de que los productos lleguen en buen estado",
+      "image": "images (1).jpg"
+   },
+   {
+      "id": 3,
+      "name": "victor",
+      "price": 1000,
+      "recommendable": true,
+      "category": "top ranking",
+      "description": "Soy capaz de organizar y planificar las rutas de entrega de manera eficiente, optimizando el tiempo y los recursos disponibles.",
+      "image": "images (1).jpg"
+   },
+   {
+      "id": 4,
+      "name": "maria",
+      "price": 1000,
+      "recommendable": true,
+      "category": "top ranking",
+      "description": "Conozco las calles de direcciones de la zona en la que trabajo, los que me permite evitar retrasos innecesarios",
+      "image": "images (1).jpg"
+   },
+   {
+      "id": 5,
+      "name": "laura",
+      "price": 1000,
+      "recommendable": true,
+      "category": "top ranking",
+      "description": "Tengo una actitud amable y servicial hacia los clientes. Entiendo la importancia de brindar un buen servicio al cliente y me esfuerzo por mantener una excelente relacion con ellos",
+      "image": "images (1).jpg"
+   },
+   {
+      "id": 6,
+      "name": "sofia",
+      "price": 1000,
+      "recommendable": true,
+      "category": "top ranking",
+      "description": "Tengo conocimientos del producto y sus procedimientos. Estoy familiarizado con los productos que esntrego y cononzco los procedimientos de manipulacon adecuados.",
+      "image": "images (9).jpg"
+   },
+   {
+      "id": 7,
+      "name": "matias",
+      "price": 1000,
+      "recommendable": true,
+      "category": "top ranking",
+      "description": "Se coo manejar los productos frágiles o perecederos. asi como seguir cualquier instruccion especial proporcionada por el cliente",
+      "image": "images (10).jpg"
+   },
+   {
+      "id": 8,
+      "name": "antony",
+      "price": 1000,
+      "recommendable": true,
+      "category": "top ranking",
+      "description": "Tengo la habilidad de resolver problemas de manera efectiva, si surge algun contratiempo durante la entrega , busco la solucion mas rapida y efectivas para resolver la situacion",
+      "image": "images (1).jpg"
+   },
+   {
+      "id": 9,
+      "name": "lionel",
+      "price": 1000,
+      "recommendable": true,
+      "category": "top ranking",
+      "description": "Conduzco de manera segura, soy consciente de la importancia de a seguridad vial, cumplo con todas las normas de trafco y maneja de manera segura y responsable",
+      "image": "images (1)ic-keyboard.jpg"
+   },
+   {
+      "id": 10,
+      "name": "beatriz",
+      "price": 1000,
+      "recommendable": true,
+      "category": "top ranking",
+      "description": "Tengo buena condicion fisica. Mi trabajo require de una bien estado fisico por ende puedo complir con las tareas de manera eficiente y sin problemas",
+      "image": "images (1)itech.jpg"
+   },
+   {
+      "id": 11,
+      "name": "melina",
+      "price": 800,
+      "recommendable": true,
+      "category": "ranking",
+      "description": "Soy profesional. Muestro una actitud profesional en todo momento. Soy puntua, me visto adecuadamente con el uniforme o vestimenta requerida y me comporto de manera respetuosa con los clientes y compañeros de trabajo",
+      "image": "img-parlante-bose.jpg"
+   },
+   {
+      "id": 12,
+      "name": "ailen",
+      "price": 800,
+      "recommendable": false,
+      "category": "ranking",
+      "description": "Asumo la responsabilidad de entregar los pedidos de manera oportuna y segura",
+      "image": "img-home-theater-sony.jpg"
+   },
+   {
+      "id": 13,
+      "name": "israel",
+      "price": 800,
+      "recommendable": false,
+      "category": "ranking",
+      "description": "Conduzco de manera segura, soy consciente de la importancia de a seguridad vial, cumplo con todas las normas de trafco y maneja de manera segura y responsable",
+      "image": "img-tv-samsung-smart.jpg"
+   },
+   {
+      "id": 14,
+      "name": "rodrigo",
+      "price": 800,
+      "recommendable": false,
+      "category": "top ranking",
+      "description": "Tengo la habilidad de resolver problemas de manera efectiva, si surge algun contratiempo durante la entrega , busco la solucion mas rapida y efectivas para resolver la situacion",
+      "image": "img-sony-blueray.jpg"
+     
+   },
+   {
+      "id": 15,
+      "name": "arturo",
+      "price": 800,
+      "recommendable": false,
+      "category": "ranking",
+      "description": "Soy profesional. Muestro una actitud profesional en todo momento. Soy puntua, me visto adecuadamente con el uniforme o vestimenta requerida y me comporto de manera respetuosa con los clientes y compañeros de trabajo",
+      "image": "img-bicicleta-fierce.jpg"
+   },
+   {
+      "id": 16,
+      "name": "kevin",
+      "price": 800,
+      "recommendable": false,
+      "category": "ranking",
+      "description": "Se coo manejar los productos frágiles o perecederos. asi como seguir cualquier instruccion especial proporcionada por el cliente",
+      "image": "img-parlante-sony.jpg"
+   },
+   {
+    "id": 17,
+    "name": "marisa",
+    "price": 800,
+    "recommendable": false,
+    "category": "ranking",
+    "description": "Conozco las calles de direcciones de la zona en la que trabajo, los que me permite evitar retrasos innecesarios",
+    "image": "img-parlante-sony.jpg"
+   },
+   {
+      "id": 18,
+      "name": "manuel",
+      "price": 800,
+      "recommendable": false,
+      "category": "ranking",
+      "description": "Asumo la responsabilidad de entregar los pedidos de manera oportuna y segura",
+      "image": "img-parlante-sony.jpg"
+   },
+   {
+      "id": 19,
+      "name": "liz",
+      "price": 800,
+      "recommendable": false,
+      "category": "ranking",
+      "description": "Tengo la habilidad de resolver problemas de manera efectiva, si surge algun contratiempo durante la entrega , busco la solucion mas rapida y efectivas para resolver la situacion",
+      "image": "img-parlante-sony.jpg"
+   },
+   {
+      "id": 20,
+      "name": "martin",
+      "price": 800,
+      "recommendable": false,
+      "category": "ranking",
+      "description": "Tengo conocimientos del producto y sus procedimientos. Estoy familiarizado con los productos que esntrego y cononzco los procedimientos de manipulacon adecuados.",
+      "image": "img-parlante-sony.jpg"
+   }
+]

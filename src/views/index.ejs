@@ -1,8 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<%- include('partials/head') %>
+<%- include('partials/head', {title: 'Tiendas y Cadetes'}) %>
 <body>
     <%- include('partials/header') %>
+    <main class="main__store">
+        <br>
+            <h2>TIENDAS</h2>
+            <br>
+        <section class="main__store__section">
+            <%- include('partials/storeForEach', {
+                stores
+            }) %>
+        </section>    
+    </main>
+    <main class="main__cadetes">
+        <br>
+            <div class="main__cadetes__div--h2">
+                <h2>CADETES</h2>
+                <i class="fa-solid fa-medal"></i>
+            </div>
+            <br>
+        <section class="main__cadetes__section--ranking">
+            <%- include('partials/cadetsForEach', {
+                cadets
+            }) %>
+        </section>
+    </main>
     <%- include('partials/footer') %>
     <%- include('partials/scripts') %>
 </body>

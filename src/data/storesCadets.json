@@ -1,0 +1,199 @@
+[
+   {
+      "id": 1,
+      "name": "raul",
+      "stars": 5,
+      "category": "stores",
+      "description": "Asumo la responsabilidad de entregar los pedidos de manera oportuna y segura",
+      "image": "images1.jpg"
+   },
+   {
+      "id": 2,
+      "name": "carlos",
+      "stars": 5,
+      "category": "stores",
+      "description": "Cumplo con los plazos establecidos y me aseguro de que los productos lleguen en buen estado",
+      "image": "images2.jpg"
+   },
+   {
+      "id": 3,
+      "name": "victor",
+      "stars": 5,
+      "category": "stores",
+      "description": "Soy capaz de organizar y planificar las rutas de entrega de manera eficiente, optimizando el tiempo y los recursos disponibles.",
+      "image": "images3.jpg"
+   },
+   {
+      "id": 4,
+      "name": "maria",
+      "stars": 5,
+      "category": "stores",
+      "description": "Conozco las calles de direcciones de la zona en la que trabajo, los que me permite evitar retrasos innecesarios",
+      "image": "images4.jpg"
+   },
+   {
+      "id": 5,
+      "name": "laura",
+      "stars": 5,
+      "category": "stores",
+      "description": "Tengo una actitud amable y servicial hacia los clientes. Entiendo la importancia de brindar un buen servicio al cliente y me esfuerzo por mantener una excelente relacion con ellos",
+      "image": "images5.jpg"
+   },
+   {
+      "id": 6,
+      "name": "sofia",
+      "stars": 5,
+      "category": "stores",
+      "description": "Tengo conocimientos del producto y sus procedimientos. Estoy familiarizado con los productos que esntrego y cononzco los procedimientos de manipulacon adecuados.",
+      "image": "images6.jpg"
+   },
+   {
+      "id": 7,
+      "name": "matias",
+      "stars": 5,
+      "category": "stores",
+      "description": "Se coo manejar los productos frágiles o perecederos. asi como seguir cualquier instruccion especial proporcionada por el cliente",
+      "image": "images7.jpg"
+   },
+   {
+      "id": 8,
+      "name": "antony",
+      "stars": 5,
+      "category": "stores",
+      "description": "Tengo la habilidad de resolver problemas de manera efectiva, si surge algun contratiempo durante la entrega , busco la solucion mas rapida y efectivas para resolver la situacion",
+      "image": "images8.jpg"
+   },
+   {
+      "id": 9,
+      "name": "lionel",
+      "stars": 5,
+      "category": "stores",
+      "description": "Conduzco de manera segura, soy consciente de la importancia de a seguridad vial, cumplo con todas las normas de trafco y maneja de manera segura y responsable",
+      "image": "images9.jpg"
+   },
+   {
+      "id": 10,
+      "name": "beatriz",
+      "stars": 5,
+      "category": "stores",
+      "description": "Tengo buena condicion fisica. Mi trabajo require de una bien estado fisico por ende puedo complir con las tareas de manera eficiente y sin problemas",
+      "image": "images10.jpg"
+   },
+   {
+      "id": 1,
+      "name": "raul",
+      "price": 1000,
+      "recommendable": true,
+      "category": "cadets",
+      "description": "Asumo la responsabilidad de entregar los pedidos de manera oportuna y segura",
+      "image": "perfil1.jpg"
+   },
+   {
+      "id": 2,
+      "name": "carlos",
+      "price": 1000,
+      "recommendable": true,
+      "category": "cadets",
+      "description": "Cumplo con los plazos establecidos y me aseguro de que los productos lleguen en buen estado",
+      "image": "perfil2.jpg"
+   },
+   {
+      "id": 3,
+      "name": "victor",
+      "price": 1000,
+      "recommendable": true,
+      "category": "cadets",
+      "description": "Soy capaz de organizar y planificar las rutas de entrega de manera eficiente, optimizando el tiempo y los recursos disponibles.",
+      "image": "perfil3.jpg"
+   },
+   {
+      "id": 4,
+      "name": "maria",
+      "price": 1000,
+      "recommendable": true,
+      "category": "cadets",
+      "description": "Conozco las calles de direcciones de la zona en la que trabajo, los que me permite evitar retrasos innecesarios",
+      "image": "perfil4.jpg"
+   },
+   {
+      "id": 5,
+      "name": "laura",
+      "price": 1000,
+      "recommendable": true,
+      "category": "cadets",
+      "description": "Tengo una actitud amable y servicial hacia los clientes. Entiendo la importancia de brindar un buen servicio al cliente y me esfuerzo por mantener una excelente relacion con ellos",
+      "image": "perfil5.jpg"
+   },
+   {
+      "id": 6,
+      "name": "sofia",
+      "price": 1000,
+      "recommendable": true,
+      "category": "cadets",
+      "description": "Tengo conocimientos del producto y sus procedimientos. Estoy familiarizado con los productos que esntrego y cononzco los procedimientos de manipulacon adecuados.",
+      "image": "perfil6.jpg"
+   },
+   {
+      "id": 7,
+      "name": "matias",
+      "price": 1000,
+      "recommendable": true,
+      "category": "cadets",
+      "description": "Se coo manejar los productos frágiles o perecederos. asi como seguir cualquier instruccion especial proporcionada por el cliente",
+      "image": "perfil7.jpg"
+   },
+   {
+      "id": 8,
+      "name": "antony",
+      "price": 1000,
+      "recommendable": true,
+      "category": "cadets",
+      "description": "Tengo la habilidad de resolver problemas de manera efectiva, si surge algun contratiempo durante la entrega , busco la solucion mas rapida y efectivas para resolver la situacion",
+      "image": "perfil8.jpg"
+   },
+   {
+      "id": 9,
+      "name": "lionel",
+      "price": 1000,
+      "recommendable": true,
+      "category": "cadets",
+      "description": "Conduzco de manera segura, soy consciente de la importancia de a seguridad vial, cumplo con todas las normas de trafco y maneja de manera segura y responsable",
+      "image": "perfil9.jpg"
+   },
+   {
+      "id": 10,
+      "name": "beatriz",
+      "price": 1000,
+      "recommendable": true,
+      "category": "cadets",
+      "description": "Tengo buena condicion fisica. Mi trabajo require de una bien estado fisico por ende puedo complir con las tareas de manera eficiente y sin problemas",
+      "image": "perfil10.jpg"
+   },
+   {
+      "id": 11,
+      "name": "Kiosko REBECA",
+      "category": "stores",
+      "price": 500,
+      "adres": "iquique 900",
+      "description": "Somos la mejor tienda con los mejores descuentos",
+      "image": null
+   },
+   {
+      "id": 12,
+      "name": "El chino carnero",
+      "category": "stores",
+      "price": 200,
+      "adres": "alpaca 1200",
+      "description": "Productos organicos de primera calidad",
+      "image": null
+   },
+   {
+      "id": 14,
+      "name": "bruno",
+      "category": "cadets",
+      "price": 800,
+      "adres": "rivadavia 2300",
+      "description": "Soy muy rapido repartiendo",
+      "image": null
+   }
+]
