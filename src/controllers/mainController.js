@@ -12,6 +12,19 @@ const controller = {
             cadets : storesCadets.filter(storeCadet => storeCadet.category === 'cadets'),
         })
 	},
+    stores: (req, res) => {
+        res.render('stores')
+    },
+    cadets: (req, res) => {
+        res.render('cadets')
+    },
+    orders: (req, res) => {
+        res.render('orders')
+    },
+    map : (req, res) => {
+        res.render('map')
+    }
+
 
 }
 

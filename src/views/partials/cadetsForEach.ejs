@@ -1,6 +1,6 @@
 <% cadets.forEach(cadet => { %>
     <article class="main__section__article--ranking">   
-        <img src="/img/<%= cadet.image %>" alt="img">   
+        <img src="/img/<%= cadet.image || 'default-image.png' %>" alt="img">   
         <a class="recomendado" href="">recomendado</a>         
         <div class="main__section__article__ranking--div">
             <a href="">elegir</a>
