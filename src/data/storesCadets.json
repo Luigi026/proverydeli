@@ -195,5 +195,60 @@
       "adres": "rivadavia 2300",
       "description": "Soy muy rapido repartiendo",
       "image": null
+   },
+   {
+      "id": 15,
+      "name": "nueva tienda",
+      "category": "Seleccione categoría ...",
+      "price": 0,
+      "adres": "",
+      "description": "",
+      "image": null
+   },
+   {
+      "id": 16,
+      "name": "nueva tienda",
+      "category": "Seleccione categoría ...",
+      "price": 0,
+      "adres": "",
+      "description": "",
+      "image": null
+   },
+   {
+      "id": 17,
+      "name": "nueva tienda",
+      "category": "Seleccione categoría ...",
+      "price": 0,
+      "adres": "",
+      "description": "",
+      "image": null
+   },
+   {
+      "id": 18,
+      "name": "nueva tienda",
+      "category": "Seleccione categoría ...",
+      "price": 0,
+      "adres": "",
+      "description": "",
+      "image": null
+   },
+   {
+      "id": 19,
+      "name": "asdsad",
+      "category": "Seleccione categoría ...",
+      "price": 0,
+      "adres": "",
+      "description": "",
+      "image": null
+   },
+   {
+      "id": 20,
+      "name": "asdsad",
+      "category": "Seleccione categoría ...",
+      "price": 0,
+      "adres": "",
+      "description": "",
+      "image": null
    }
+   
 ]

@@ -14,31 +14,55 @@
                     </div>
                     <div class="card-body">
                         <form action="/storesCadets/create"  method="POST" class="row">
+
+                                        <!--  N A M E   -->
+
                             <div class="col-12 col-md-6 mb-3">
                                 <label for="name" class="form-label">Nombre de la tienda o cadete</label>
-                                <input type="text" class="form-control" name="name" id="name" placeholder="Ej : Kiosko365 o luis">
-                            </div>
+                                <input type="text" class="form-control <%= locals.errors && (errors.name && 'is-invalid') %>" name="name" id="name" placeholder="Ej : Kiosko365 o luis" value="<%= locals.old && (old.name && old.name) %>">
+                                <!-- Si existe errors en locals entonces comparame lo otro --> <!-- Si existe error.name entonces mostrame el mensaje del metodo errors (msg) -->       
+                                <small class="text-danger ms-2"><%= locals.errors && (errors.name && errors.name.msg) %></small>
+                            </div>                               <!-- locals: es un objeto que se encarga de almacenar la informacion que se envia del controlador a la vista -->
+                            
+
+                                        <!--  C A T E G O R I A   -->
+
                             <div class="col-12 col-md-6 mb-3">
                                 <label for="category" class="form-label">Categoría</label>
-                                <select class="form-select" id="category" name="category" aria-label="Default select example">
+                                <select class="form-select <%= locals.errors && (errors.category && 'is-invalid') %>" id="category" name="category" aria-label="Default select example">
                                     <option selected>Seleccione categoría ...</option>
                                     <option value="stores">Tienda</option>
                                     <option value="cadets">Cadete</option>
-                                    
-                                  </select>
+                                  </select> <!--  -->
+                                  <small class="text-danger ms-2"><%= locals.errors && (errors.category && errors.category.msg) %></small>
                             </div>
+
+                                        <!--  P R I C E   -->
+                            
                             <div class="col-12 col-md-6 mb-3">
                                 <label for="price" class="form-label">Precio de envio</label>
-                                <input type="text" class="form-control" name="price" id="price" placeholder="Ej : $ 500">
+                                <input type="text" class="form-control <%= locals.errors && (errors.price && 'is-invalid') %>" name="price" id="price" placeholder="Ej : $ 500" value="<%= locals.old && (old.price && old.price) %>">
+                                <small class="text-danger ms-2"><%= locals.errors && (errors.price && errors.price.msg) %></small>
                             </div>
+
+                                        <!--  D I R E C T I O N   -->
+
                             <div class="col-12 col-md-6 mb-3">
                                 <label for="adres" class="form-label">Direccion</label>
-                                <input type="text" class="form-control" name="adres" id="adres" placeholder="Ej : Futaleufu 2356">
+                                <input type="text" class="form-control <%= locals.errors && (errors.adres && 'is-invalid') %>" name="adres" id="adres" placeholder="Ej : Futaleufu 2356" value="<%= locals.old && (old.adres && old.adres) %>">
+                                <small class="text-danger ms-2"><%= locals.errors && (errors.adres && errors.adres.msg) %></small>
                             </div>
+
+                                        <!--  D E S C R I P T I O N  -->
+
                             <div class="col-12 mb-3">
                                 <label for="description" class="form-label">Descripcion</label>
-                                <textarea name="description" id="description" class="form-control" style="resize: none;"></textarea>
+                                <textarea name="description" id="description" class="form-control <%= locals.errors && (errors.description && 'is-invalid') %>" style="resize: none;"><%= locals.old && (old.description && old.description) %></textarea>
+                                <small class="text-danger ms-2"><%= locals.errors && (errors.description&& errors.description.msg) %></small>
                             </div>
+
+                                        <!--  B U T T O N S   -->
+
                             <div class="col-12 d-flex justify-content-end gap-2 mb-3">
                                 <label for="image" class="btn btn-secondary">Agregar imagen</label>
                                 <input type="file" name="image" id="image" hidden>

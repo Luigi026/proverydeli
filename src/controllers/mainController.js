@@ -24,8 +24,6 @@ const controller = {
     map : (req, res) => {
         res.render('map')
     }
-
-
 }
 
 module.exports = controller;
